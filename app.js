@@ -5,7 +5,7 @@
             this.classList.add("active-btn");
             document.querySelector(".active").classList.remove("active");
             document.getElementById(button.dataset.id).classList.add("active");
-            document.getElementById("coder").src = "assets/coder-green.svg";
+            document.getElementById("coder").src = "assets/coder-purple.svg";
             if(document.body.classList.contains("light-mode")) {
                 document.getElementById("coder").src = "assets/coder-pink.svg";
             }
@@ -17,7 +17,7 @@
         if (document.body.classList.contains("light-mode")) {
             document.getElementById("coder").src = "assets/coder-pink.svg";
         } else {
-            document.getElementById("coder").src = "assets/coder-green.svg";
+            document.getElementById("coder").src = "assets/coder-purple.svg";
         }
         
     });
