@@ -1572,6 +1572,90 @@ section {
                 }
             }
         }
+        .fast-api {
+            &:hover {
+                span {
+                    background: #049789;
+                }
+                .tooltip {
+                    background: #049789;
+                    
+                    &:before {
+                        background: #049789;
+                    }
+                }
+            }
+        }
+        .langchain {
+            &:hover {
+                span {
+                    background: #3d6c04;
+                }
+                .tooltip {
+                    background: #3d6c04;
+                    
+                    &:before {
+                        background: #3d6c04;
+                    }
+                }
+            }
+        }
+        .pytorch {
+            &:hover {
+                span {
+                    background: #ee4c2c;
+                }
+                .tooltip {
+                    background: #ee4c2c;
+                    
+                    &:before {
+                        background: #ee4c2c;
+                    }
+                }
+            }
+        }
+        .neo4j {
+            &:hover {
+                span {
+                    background: #018bff;
+                }
+                .tooltip {
+                    background: #018bff;
+                    
+                    &:before {
+                        background: #018bff;
+                    }
+                }
+            }
+        }
+        .tensorflow {
+            &:hover {
+                span {
+                    background: #ed8e24;
+                }
+                .tooltip {
+                    background: #ed8e24;
+                    
+                    &:before {
+                        background: #ed8e24;
+                    }
+                }
+            }
+        }
+        .elasticsearch {
+            &:hover {
+                span {
+                    background: #00a9e5;
+                }
+                .tooltip {
+                    background: #00a9e5;
+                    
+                    &:before {
+                        background: #00a9e5;
+                    }
+                }
+            }
+        }
         .php {
             &:hover {
                 span {
@@ -1610,6 +1694,20 @@ section {
                     
                     &:before {
                         background: #FFA611;
+                    }
+                }
+            }
+        }
+        .qdrant{ 
+            &:hover {
+                span {
+                    background: #DC244C;
+                }
+                .tooltip {
+                    background: #DC244C;
+                    
+                    &:before {
+                        background: #DC244C;
                     }
                 }
             }

@@ -75,17 +75,8 @@ section {
 
 .active {
   display: block;
-  -webkit-animation: appear 1s ease-in-out;
-          animation: appear 1s ease-in-out;
+  animation: appear 1s ease-in-out;
   transform: translateY(0) scale(1);
-}
-@-webkit-keyframes appear {
-  0% {
-    transform: translateY(-100%) scaleY(0);
-  }
-  100% {
-    transform: translateY(0) scaleY(1);
-  }
 }
 @keyframes appear {
   0% {
@@ -691,8 +682,7 @@ section {
 .projects-content .project-item img {
   width: 100%;
   height: 300px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   transition: all 0.4s ease-in-out;
@@ -1289,6 +1279,60 @@ section {
 .tech-skills .tech-wrapper .python:hover .tooltip:before {
   background: #5a9fd4;
 }
+.tech-skills .tech-wrapper .fast-api:hover span {
+  background: #049789;
+}
+.tech-skills .tech-wrapper .fast-api:hover .tooltip {
+  background: #049789;
+}
+.tech-skills .tech-wrapper .fast-api:hover .tooltip:before {
+  background: #049789;
+}
+.tech-skills .tech-wrapper .langchain:hover span {
+  background: #3d6c04;
+}
+.tech-skills .tech-wrapper .langchain:hover .tooltip {
+  background: #3d6c04;
+}
+.tech-skills .tech-wrapper .langchain:hover .tooltip:before {
+  background: #3d6c04;
+}
+.tech-skills .tech-wrapper .pytorch:hover span {
+  background: #ee4c2c;
+}
+.tech-skills .tech-wrapper .pytorch:hover .tooltip {
+  background: #ee4c2c;
+}
+.tech-skills .tech-wrapper .pytorch:hover .tooltip:before {
+  background: #ee4c2c;
+}
+.tech-skills .tech-wrapper .neo4j:hover span {
+  background: #018bff;
+}
+.tech-skills .tech-wrapper .neo4j:hover .tooltip {
+  background: #018bff;
+}
+.tech-skills .tech-wrapper .neo4j:hover .tooltip:before {
+  background: #018bff;
+}
+.tech-skills .tech-wrapper .tensorflow:hover span {
+  background: #ed8e24;
+}
+.tech-skills .tech-wrapper .tensorflow:hover .tooltip {
+  background: #ed8e24;
+}
+.tech-skills .tech-wrapper .tensorflow:hover .tooltip:before {
+  background: #ed8e24;
+}
+.tech-skills .tech-wrapper .elasticsearch:hover span {
+  background: #00a9e5;
+}
+.tech-skills .tech-wrapper .elasticsearch:hover .tooltip {
+  background: #00a9e5;
+}
+.tech-skills .tech-wrapper .elasticsearch:hover .tooltip:before {
+  background: #00a9e5;
+}
 .tech-skills .tech-wrapper .php:hover span {
   background: #777BB3;
 }
@@ -1315,6 +1359,15 @@ section {
 }
 .tech-skills .tech-wrapper .firebase:hover .tooltip:before {
   background: #FFA611;
+}
+.tech-skills .tech-wrapper .qdrant:hover span {
+  background: #DC244C;
+}
+.tech-skills .tech-wrapper .qdrant:hover .tooltip {
+  background: #DC244C;
+}
+.tech-skills .tech-wrapper .qdrant:hover .tooltip:before {
+  background: #DC244C;
 }
 .tech-skills .tech-wrapper .sql:hover span {
   background: #00758F;
@@ -1727,4 +1780,6 @@ section {
   .left-header .image img {
     border-radius: 700px !important;
   }
-}/*# sourceMappingURL=styles.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */
