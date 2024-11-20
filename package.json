@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "live-server": "^1.2.2",
-    "node-sass": "^7.0.1",
+    "sass": "^1.81.0",
     "typed.js": "^2.0.12"
   },
   "name": "priyadarshinisaha",
@@ -14,7 +14,7 @@
   "scripts": {
     "test": "test",
     "start": "http-server",
-    "scss": "node-sass --watch scss -o scss",
+    "scss": "sass --watch scss:scss",
     "server": "live-server"
   },
   "repository": {
